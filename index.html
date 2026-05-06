@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jokes App</title>
+  <link  rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="card">
+    <div class="title">Random Joke</div>
+
+    <div id="setup" class="setup">Loading...</div>
+
+    <div id="punchline" class="punchline"></div>
+
+    <div class="buttons">
+      <button class="show-btn" onclick="togglePunchline()">Show</button>
+      <button class="new-btn" onclick="getJoke()">New</button>
+      <button class="copy-btn" onclick="copyJoke()">Copy</button>
+    </div>
+
+    <div id="loader" class="loader"></div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
